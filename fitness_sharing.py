@@ -68,7 +68,7 @@ class FitnessSharing(GeneticAlgorithm):
 
         while len(new_population) < self.population_size:
 
-            # Select parents using shared fitness.
+            #Select parents using shared fitness.
             parent1 = self.selection(shared_fitness)
             parent2 = self.selection(shared_fitness)
 

@@ -3,7 +3,7 @@ import time
 from pathlib import Path
 
 import numpy as np
-import pandas as pd
+import pandas as pd  # pyright: ignore[reportMissingModuleSource]
 
 from benchmarks import get_peaks, evaluate_population
 from genetic_algorithm import GeneticAlgorithm

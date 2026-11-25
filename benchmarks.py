@@ -8,7 +8,7 @@ def m1(x):
     """Multimodal function with five equal-height peaks."""
     x = np.asarray(x, dtype=float)
 
-    return np.sin(5 * np.pi * x) ** 6
+    return np.sin(5 * np.pi * x) ** 6 
 
 
 def m4(x):
